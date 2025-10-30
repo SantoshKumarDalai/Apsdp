@@ -1,0 +1,164 @@
+@media (max-width: 1125px) {
+    .swiper-slide .content {
+        padding: 0px 100px;
+    }
+
+    .swiper-slide .content .name {
+        font-size: 28px;
+    }
+
+    .swiper-slide .content .des {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .footer-section .footer-left,
+    .footer-section .footer-center,
+    .footer-section .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-section .footer-center i {
+        margin-left: 0;
+    }
+
+    .navbar-collapse form {
+        margin: 20px 0px;
+    }
+
+    .swiper-slide .content {
+        top: 20%;
+    }
+
+    .swiper-slide .content .name {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: row;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .search-suggestions {
+        max-height: 150px;
+        font-size: 14px;
+    }
+
+    .btn {
+        /* width: 100%; */
+        justify-content: center;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .cta-content h2 {
+        font-size: 30px;
+    }
+
+    .cta-content p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .product-card img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 525px) {
+    .swiper-slide .content {
+        padding: 0px 30px;
+        gap: 5px;
+    }
+
+    .swiper-slide .content .name {
+        font-size: 16px;
+    }
+
+    .swiper-slide .content .des {
+        font-size: 14px;
+    }
+
+    .swiper-slide .content a {
+        font-size: 14px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 28px;
+    }
+
+    .swiper-button-next {
+        right: 0;
+
+    }
+
+    .swiper-button-prev {
+        left: 0;
+    }
+
+}
+
+@media (max-width: 385px) {
+    .swiper-slide .content {
+        top: 13%;
+    }
+
+    .swiper-slide .content .name {
+        font-size: 13px;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+@media (max-width: 325px) {
+    .swiper-slide .content {
+        top: 12%;
+    }
+
+    .swiper-slide .content .name {
+        font-size: 11px;
+    }
+
+    .swiper-slide .content .des {
+        font-size: 12px;
+    }
+
+    .swiper-slide .content {
+        padding: 0px 30px;
+        gap: 5px;
+    }
+
+    .swiper-slide .content a {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+}
+
+@media (min-width: 480px) {
+    .search-suggestions {
+        max-height: 120px;
+        font-size: 13px;
+    }
+}

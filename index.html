@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta name='og:image' content=''>
+    <!-- For Resposive Device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For Window Tab Color -->
+    <title>apsdpsolutions</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Aos Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Main style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <!-- responsive style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+</head>
+
+<body>
+
+    <!-- ===================================================
+			Navbar Section
+		==================================================== -->
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Left: Logo -->
+            <a class="navbar-brand" href="/index.html">
+                <img src="images/logo/apsdp_png 1 (1).png" alt="" style="width: 60px;">
+            </a>
+
+            <!-- Right side (hamburger + register) on mobile -->
+            <div class="d-flex align-items-center ms-auto d-lg-none">
+                <!-- <a class="btn1 btn-second me-2" href="/register.html">Register</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i id="navbarToggleIcon" class="bi bi-list"></i>
+                </button>
+            </div>
+
+            <!-- Navbar links + register button for desktop -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                <!-- Center: Links -->
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Catalogue</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <ul class="dropdown-menu-inner">
+                                    <li><a class="dropdown-item" href="#">
+                                            #</a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            #</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item dropdown dropdown-hover">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Locations</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <ul class="dropdown-menu-inner">
+                                        <li><a class="dropdown-item"
+                                                href="/location.html">Bhubaneswar</a></li>
+                                        <li><a class="dropdown-item"
+                                                href="/location.html">Delhi</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li> -->
+                    <!-- <li class="nav-item"><a class="nav-link" href="/blog.html">Blogs</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="/contact.html">Contact Us</a></li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">category</button>
+                </form>
+
+                <!-- Right: Register Button (for large screens only) -->
+                <!-- <div class="d-none d-lg-flex">
+                    <a class="btn1 btn-second" href="/register.html">Register</a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================================================
+			Hero-Banner-Section
+		==================================================== -->
+    <section class="hero-banner">
+        <div class="conatiner-fluid">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="banner-section">
+                            <div class="banner-img">
+                                <img src="/images/assets/banner-img/Banner/Banner-1.png" />
+                            </div>
+                            <div class="content">
+                                <div class="name">Explore APSDP Smart Technology Products</div>
+                                <div class="des">
+                                    Innovation in Automation, Display, and Security Solutions.
+                                </div>
+                                <a class="seeMore" target="_blank" href="#">View All Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-section">
+                            <div class="banner-img">
+                                <img src="/images/assets/banner-img/Banner/banner-2.png" />
+                            </div>
+                            <div class="content">
+                                <div class="name">Explore APSDP Smart Technology Products</div>
+                                <div class="des">
+                                    Innovation in Automation, Display, and Security Solutions.
+                                </div>
+                                <a class="seeMore" target="_blank" href="#">View All Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-section">
+                            <div class="banner-img">
+                                <img src="/images/assets/banner-img/Banner/Banner-3.png" />
+                            </div>
+                            <div class="content">
+                                <div class="name">Explore APSDP Smart Technology Products</div>
+                                <div class="des">
+                                    Innovation in Automation, Display, and Security Solutions.
+                                </div>
+                                <a class="seeMore" target="_blank" href="#">View All Products</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner-section">
+                            <div class="banner-img">
+                                <img src="/images/assets/banner-img/Banner/Banner-4.png" />
+                            </div>
+                            <div class="content">
+                                <div class="name">Explore APSDP Smart Technology Products</div>
+                                <div class="des">
+                                    Innovation in Automation, Display, and Security Solutions.
+                                </div>
+                                <a class="seeMore" target="_blank" href="#">View All Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================================================
+			Product-grid-Section
+		==================================================== -->
+
+    <section class="product-grid-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="grid-search-bar">
+
+                        <!-- Search Container -->
+                        <div class="search-container">
+                            <!-- Search Box -->
+                            <div class="search-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#6b7280" stroke-width="2"
+                                    viewBox="0 0 24 24" width="18" height="18">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.35-4.35"></path>
+                                </svg>
+                                <input type="text" placeholder="Search products...">
+                            </div>
+
+                            <!-- Category Dropdown -->
+                            <div style="position: relative;">
+                                <button class="btn" id="categoryBtn" style="font-weight: 600;">
+                                    Categories
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#6b7280"
+                                        stroke-width="2" viewBox="0 0 24 24" width="14" height="14">
+                                        <path d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </button>
+
+                                <!-- Dropdown -->
+                                <div class="dropdown" id="categoryDropdown">
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                            stroke-width="2" viewBox="0 0 24 24">
+                                            <path d="M4 4h16v16H4z" />
+                                        </svg>
+                                        Smart Classroom
+                                    </button>
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                            stroke-width="2" viewBox="0 0 24 24">
+                                            <path d="M3 12h18M12 3v18" />
+                                        </svg>
+                                        Access Control
+                                    </button>
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                            stroke-width="2" viewBox="0 0 24 24">
+                                            <path d="M4 6h16v12H4z" />
+                                            <path d="M8 10h8v4H8z" />
+                                        </svg>
+                                        POS & Billing
+                                    </button>
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                            stroke-width="2" viewBox="0 0 24 24">
+                                            <path d="M4 4h16v16H4z" />
+                                            <path d="M8 8h8v8H8z" />
+                                        </svg>
+                                        Office Automation
+                                    </button>
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                            stroke-width="2" viewBox="0 0 24 24">
+                                            <circle cx="12" cy="12" r="4" />
+                                            <path d="M2 12a10 10 0 0 1 20 0" />
+                                        </svg>
+                                        Security Systems
+                                    </button>
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                                            stroke-width="2" viewBox="0 0 24 24">
+                                            <path d="M4 6h16v12H4z" />
+                                            <path d="M8 10h8v4H8z" />
+                                        </svg>
+                                        Billing
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Product 1 -->
+                    <div class="product-card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000">
+                        <img src="/images/assets/1.png" alt="Smart Classroom">
+                        <div class="product-category">
+                            <span>Smart Classroom</span>
+                        </div>
+                        <div class="product-info">
+
+                            <h3 class="product-name">Interactive Display Board</h3>
+                            <p class="product-desc">Enhance your classroom experience with a 4K interactive touchscreen
+                                designed for digital learning.</p>
+                            <!-- Button trigger modal -->
+                            <div class="modal-btn">
+                                <a type="button" class="btn btn-primary view-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Product 2 -->
+                    <div class="product-card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="/images/assets/2.png" alt="Access Control">
+                        <div class="product-category">
+                            <span>Access Control</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Smart Biometric Reader</h3>
+                            <p class="product-desc">Ensure secure access with advanced fingerprint recognition
+                                technology for office and home use.</p>
+                            <!-- Button trigger modal -->
+                            <div class="modal-btn">
+                                <a type="button" class="btn btn-primary view-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Product 3 -->
+                    <div class="product-card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000">
+                        <img src="/images/assets/3.png" alt="POS & Billing">
+                        <div class="product-category">
+                            <span>POS & Billing</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Smart Billing System</h3>
+                            <p class="product-desc">Simplify retail operations with our advanced POS system supporting
+                                inventory and analytics.</p>
+                            <!-- Button trigger modal -->
+                            <div class="modal-btn">
+                                <a type="button" class="btn btn-primary view-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Product 4 -->
+                    <div class="product-card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000">
+                        <img src="/images/assets/4.png" alt="Office Automation">
+                        <div class="product-category">
+                            <span>Office Automation</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Conference Camera System</h3>
+                            <p class="product-desc">Experience seamless communication with high-resolution conference
+                                automation tools.</p>
+                            <!-- Button trigger modal -->
+                            <div class="modal-btn">
+                                <a type="button" class="btn btn-primary view-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Product 5 -->
+                    <div class="product-card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                        <img src="/images/assets/5.png" alt="Security Systems">
+                        <div class="product-category">
+                            <span>Security Systems</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">CCTV Monitoring Kit</h3>
+                            <p class="product-desc">Keep your premises secure with our HD surveillance system offering
+                                24/7 monitoring.</p>
+                            <!-- Button trigger modal -->
+                            <div class="modal-btn">
+                                <a type="button" class="btn btn-primary view-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Product 6 -->
+                    <div class="product-card" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000">
+                        <img src="/images/assets/3.png" alt="POS & Billing">
+                        <div class="product-category">
+                            <span>Billing</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">RFID System</h3>
+                            <p class="product-desc">Simplify retail operations with our advanced POS system supporting
+                                inventory and analytics.</p>
+                            <!-- Button trigger modal -->
+                            <div class="modal-btn">
+                                <a type="button" class="btn btn-primary view-btn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="header-top">
+                            <h1 id="formTitle">Request Brochure</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <p class="lead">Fill in your details below and download our brochure. You can download a static
+                            brochure or
+                            a personalized PDF with your info.</p>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    </div>
+                    <div class="modal-body">
+                        <form id="contactForm" autocomplete="on" novalidate>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div>
+                                        <label for="name">Name <span class="small" aria-hidden="true">*</span></label>
+                                        <input id="name" name="name" type="text" placeholder="Your full name"
+                                            required />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div>
+                                        <label for="phone">Mobile Number <span class="small"
+                                                aria-hidden="true">*</span></label>
+                                        <!-- pattern allows 10-15 digits; adjust to your country rules -->
+                                        <input id="phone" name="phone" type="text" inputmode="numeric"
+                                            placeholder="9876543210" pattern="^\d{10,15}$" required
+                                            title="Enter 10 to 15 digits (numbers only)" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div>
+                                        <label for="email">Email <span class="small" aria-hidden="true">*</span></label>
+                                        <input id="email" name="email" type="email" placeholder="you@example.com"
+                                            required />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <div>
+                                        <label for="address">Address</label>
+                                        <input id="address" name="address" type="text"
+                                            placeholder="City, State, Country" />
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="full">
+                                        <label for="notes">Additional Notes</label>
+                                        <textarea id="notes" name="notes"
+                                            placeholder="Anything else you'd like to tell us (optional)"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- <footer>
+                            <p class="small">Tip: If the static download doesn't start, make sure a file named
+                                <code>brochure.pdf</code> exists in the same folder as this HTML (or update the link).
+                            </p>
+                        </footer> -->
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button> -->
+
+                        <a class="btn download-btn" id="staticDownload" href="brochure.pdf" download="Brochure.pdf"
+                            aria-label="Download static brochure PDF">
+                            ⬇️ Download Brochure (PDF)
+                        </a>
+
+                        <a type="button" id="generatePdf" class="btn secondary"
+                            title="Generate and download a personalized PDF">
+                            📝 Download Personalized Brochure
+                        </a>
+
+                        <a type="button" id="submitBtn" class="btn send-btn">
+                            Send Info
+                        </a>
+
+
+                        <div style="margin-left:auto" class="note" id="status">Fields marked * are required.</div>
+                        Info
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+			CTA-Section
+		==================================================== -->
+    <section class="cta-section">
+        <div class="container-fluid">
+            <div class="cta-content" data-aos="zoom-out-down" data-aos-duration="3000">
+                <h2>Ready to Elevate Your Experience?</h2>
+                <p>Join thousands of users enjoying our platform with premium features, insights, and support.</p>
+                <a href="#" class="cta-button">Get Started Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+			footer-Section
+		==================================================== -->
+    <footer class="footer-section">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="footer-left">
+
+                    <!-- <h3>Company<span>logo</span></h3> -->
+                    <a href="">
+                        <img src="images/logo/apsdp_png 1 (1).png" alt="" style="width: 80px;">
+                    </a>
+
+                    <p class="footer-links">
+                        <a href="index.html" class="link-1">Home</a>
+
+                        <a href="#about">About</a>
+
+                        <!-- <a href="#">Pricing</a>
+
+                        <a href="#">About</a>
+
+                        <a href="#">Faq</a> -->
+
+                        <a href="#">Contact</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="footer-center" style="text-align: start;">
+                    <div class="list-details">
+                        <i class="bi bi-geo-alt"></i>
+                        <p><span> Plot No-19/1259,</span>2nd Floor, Nuasahi, Rasulgarh</p>
+                    </div>
+
+                    <div class="list-details">
+                        <i class="bi bi-telephone-outbound"></i>
+                        <p>+91 7653831475</p>
+                    </div>
+
+                    <div class="list-details">
+                        <i class="bi bi-envelope-at"></i>
+                        <p><a href="mailto:support@company.com">support@apsdpsolutions.co.in</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="footer-right" style="margin-bottom: 0px;">
+
+                    <p class="footer-company-about">
+                        <span>About the company</span>
+                        APSDP Solutions: Your Partner in Technological Transformation. We offer innovative security
+                        products, interactive learning solutions, and advanced retail technology. Elevate your
+                        operations with tailored offerings designed to empower industries and businesses.
+                    </p>
+
+                    <div class="footer-icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="footer-company-name">Company Name © 2025</p>
+            </div>
+        </div>
+        <!-- <div class="footer-left">
+
+            <h3>Company<span>logo</span></h3>
+
+            <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+
+                <a href="#">Blog</a>
+
+                <a href="#">Pricing</a>
+
+                <a href="#">About</a>
+
+                <a href="#">Faq</a>
+
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Company Name © 2015</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1.555.555.5555</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@company.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div> -->
+
+    </footer>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap + jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <!-- jsPDF CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Aos Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+</body>
+
+</html>
